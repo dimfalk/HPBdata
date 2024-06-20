@@ -1,0 +1,21 @@
+Package: HPBdata
+Title: XXX
+Version: 0.1.0
+Date: 2024-06-20
+Authors@R: 
+    person("Dimitri", "Falk", , "falk.dimitri@eglv.de", role = c("aut", "cre"))
+Description: YYY
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: R (>= 4.2.0)
+Imports: 
+    xts,
+    zoo
+Suggests: 
+    covr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
+LazyDataCompression: bzip2
