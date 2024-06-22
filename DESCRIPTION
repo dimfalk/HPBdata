@@ -1,10 +1,13 @@
 Package: HPBdata
-Title: XXX
+Title: Meteorological observations at 'Hohenpeißenberg' site (Bavaria, Germany)
 Version: 0.1.0
-Date: 2024-06-20
+Date: 2024-06-22
 Authors@R: 
     person("Dimitri", "Falk", , "falk.dimitri@eglv.de", role = c("aut", "cre"))
-Description: YYY
+Description: Historical quality-assured meteorological observation data at 
+    various temporal resolutions, acquired from the Climate Data Center of the 
+    German Weather Service. Data has been coverted to xts objects for further
+    applications in need of real meteorological measurements.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
