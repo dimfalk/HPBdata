@@ -3,7 +3,7 @@
 \docType{data}
 \name{obs_1d}
 \alias{obs_1d}
-\title{Data: Daily meteorological observations for 'Hohenpeißenberg' site (Bavaria, Germany)}
+\title{Data: Daily meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)}
 \format{
 A list of length 13 containing xts objects representing the following parameters:
 \describe{
@@ -29,7 +29,7 @@ A list of length 13 containing xts objects representing the following parameters
 obs_1d
 }
 \description{
-\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/DESCRIPTION_obsgermany_climate_daily_kl_historical_en.pdf}
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/DESCRIPTION_obsgermany-climate-daily-kl_en.pdf}
 }
 \details{
 Historical observations of various parameters encompassing the period 1781-01-01 to 2023-12-31 \cr

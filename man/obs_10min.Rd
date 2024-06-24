@@ -3,7 +3,7 @@
 \docType{data}
 \name{obs_10min}
 \alias{obs_10min}
-\title{Data: 10-minutely meteorological observations for 'Hohenpeißenberg' site (Bavaria, Germany)}
+\title{Data: 10-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)}
 \format{
 A list of length 9 containing xts objects representing the following parameters:
 \describe{
@@ -19,17 +19,18 @@ A list of length 9 containing xts objects representing the following parameters:
 }
 }
 \source{
-\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/}
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/}
 }
 \usage{
 obs_10min
 }
 \description{
-c.f. 'DESCRIPTION_obsgermany_climate_10min_***_en.pdf' files at source.
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/DESCRIPTION_obsgermany_climate_10min_air_temperature_en.pdf}
 }
 \details{
 Historical observations of various parameters encompassing the period 1993-12-09 14:50 UTC to 2023-12-31 23:40 UTC \cr
-Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
+Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/meta_data/}
 }
 \note{
 Last access: 2024-06-21

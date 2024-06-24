@@ -3,7 +3,7 @@
 \docType{data}
 \name{obs_1min}
 \alias{obs_1min}
-\title{Data: 1-minutely meteorological observations for 'Hohenpeißenberg' site (Bavaria, Germany)}
+\title{Data: 1-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)}
 \format{
 A list of length 1 containing an xts object representing the following parameter:
 \describe{
@@ -11,17 +11,18 @@ A list of length 1 containing an xts object representing the following parameter
 }
 }
 \source{
-\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/}
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/historical/}
 }
 \usage{
 obs_1min
 }
 \description{
-\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/meta_data/}
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/DESCRIPTION_obsgermany-climate-1min-rr_en.pdf}
 }
 \details{
 Historical observations of precipitation encompassing the period 1996-01-01 00:00 UTC to 2023-12-31 22:59 UTC \cr
-Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
+Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
+\url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/meta_data/}
 }
 \note{
 Last access: 2024-06-22

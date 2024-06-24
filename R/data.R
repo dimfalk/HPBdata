@@ -1,23 +1,25 @@
-#' Data: 1-minutely meteorological observations for 'Hohenpeißenberg' site (Bavaria, Germany)
+#' Data: 1-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)
 #'
 #' Historical observations of precipitation encompassing the period 1996-01-01 00:00 UTC to 2023-12-31 22:59 UTC \cr
-#' Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
+#' Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
+#' <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/meta_data/>
 #'
 #' @format A list of length 1 containing an xts object representing the following parameter:
 #' \describe{
 #'   \item{RWH_RS_01}{xts object. Precipitation depth \code{[mm]}.}
 #' }
-#' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/>
+#' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/historical/>
 #' @note Last access: 2024-06-22
-#' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/meta_data/>
+#' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/DESCRIPTION_obsgermany-climate-1min-rr_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2024
 "obs_1min"
 
-#' Data: 10-minutely meteorological observations for 'Hohenpeißenberg' site (Bavaria, Germany)
+#' Data: 10-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)
 #'
 #' Historical observations of various parameters encompassing the period 1993-12-09 14:50 UTC to 2023-12-31 23:40 UTC \cr
-#' Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
+#' Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
+#' <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/meta_data/>
 #'
 #' @format A list of length 9 containing xts objects representing the following parameters:
 #' \describe{
@@ -31,14 +33,14 @@
 #'   \item{SD_10}{xts object. Sum of sunshine duration \code{[h]}.}
 #'   \item{RWS_10}{xts object. Precipitation depth \code{[mm]}.}
 #' }
-#' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/>
+#' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/>
 #' @note Last access: 2024-06-21
-#' @description c.f. 'DESCRIPTION_obsgermany_climate_10min_***_en.pdf' files at source.
+#' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/DESCRIPTION_obsgermany_climate_10min_air_temperature_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2024
 "obs_10min"
 
-#' Data: Daily meteorological observations for 'Hohenpeißenberg' site (Bavaria, Germany)
+#' Data: Daily meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)
 #'
 #' Historical observations of various parameters encompassing the period 1781-01-01 to 2023-12-31 \cr
 #' Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
@@ -61,7 +63,7 @@
 #' }
 #' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/>
 #' @note Last access: 2024-06-21
-#' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/DESCRIPTION_obsgermany_climate_daily_kl_historical_en.pdf>
+#' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/DESCRIPTION_obsgermany-climate-daily-kl_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2024
 "obs_1d"
