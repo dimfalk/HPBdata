@@ -17,7 +17,7 @@
 
 #' Data: 10-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)
 #'
-#' Historical observations of various parameters encompassing the period 1993-12-09 14:50 UTC to 2023-12-31 23:40 UTC \cr
+#' Historical observations of various parameters encompassing the period 1993-12-09 13:50 UTC to 2023-12-31 23:40 UTC \cr
 #' Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
 #' <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/meta_data/>
 #'
@@ -34,7 +34,7 @@
 #'   \item{RWS_10}{xts object. Precipitation depth \code{[mm]}.}
 #' }
 #' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/>
-#' @note Last access: 2024-06-21
+#' @note Last access: 2024-07-04
 #' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/DESCRIPTION_obsgermany_climate_10min_air_temperature_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2024

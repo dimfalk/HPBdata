@@ -28,12 +28,12 @@ obs_10min
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/DESCRIPTION_obsgermany_climate_10min_air_temperature_en.pdf}
 }
 \details{
-Historical observations of various parameters encompassing the period 1993-12-09 14:50 UTC to 2023-12-31 23:40 UTC \cr
+Historical observations of various parameters encompassing the period 1993-12-09 13:50 UTC to 2023-12-31 23:40 UTC \cr
 Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/meta_data/}
 }
 \note{
-Last access: 2024-06-21
+Last access: 2024-07-04
 
 License: CC BY 4.0
 
