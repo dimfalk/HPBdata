@@ -20,12 +20,12 @@ obs_1min
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/DESCRIPTION_obsgermany-climate-1min-rr_en.pdf}
 }
 \details{
-Historical observations of precipitation encompassing the period 1996-01-01 00:00 UTC to 2023-12-31 22:59 UTC \cr
+Historical observations of precipitation encompassing the period 1994-07-01 06:20 UTC to 2023-12-31 22:59 UTC \cr
 Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/meta_data/}
 }
 \note{
-Last access: 2024-06-22
+Last access: 2024-12-30
 
 License: CC BY 4.0
 
