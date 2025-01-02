@@ -1,6 +1,6 @@
 Package: HPBdata
 Title: Meteorological observations at 'Hohenpeißenberg' site (Bavaria, Germany)
-Version: 0.1.4
+Version: 0.1.5
 Date: 2025-01-02
 Authors@R: 
     person("Dimitri", "Falk", , "falk.dimitri@eglv.de", role = c("aut", "cre"))
