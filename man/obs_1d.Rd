@@ -5,7 +5,7 @@
 \alias{obs_1d}
 \title{Data: Daily meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)}
 \format{
-A list of length 13 containing xts objects representing the following parameters:
+A list of length 13 containing xts objects (of length 88,753 each) representing the following parameters:
 \describe{
 \item{FX}{xts object. Maximum windgust \code{[m s-1]}.}
 \item{FM}{xts object. Mean wind velocity \code{[m s-1]}.}
@@ -36,10 +36,10 @@ Historical observations of various parameters encompassing the period 1781-01-01
 Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
 }
 \note{
-Last access: 2024-06-21
+Last access: 2025-01-02
 
 License: CC BY 4.0
 
-Copyright: Deutscher Wetterdienst 2024
+Copyright: Deutscher Wetterdienst 2025
 }
 \keyword{datasets}

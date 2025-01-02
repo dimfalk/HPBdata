@@ -5,7 +5,7 @@
 \alias{obs_10min}
 \title{Data: 10-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)}
 \format{
-A list of length 9 containing xts objects representing the following parameters:
+A list of length 9 containing xts objects (of length 1,581,036 each) representing the following parameters:
 \describe{
 \item{PP_10}{xts object. Mean atmospheric pressure at station altitude \code{[hPa]}.}
 \item{TT_10}{xts object. Mean air temperature at 2 m above ground \code{[°C]}.}
@@ -33,10 +33,10 @@ Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/meta_data/}
 }
 \note{
-Last access: 2024-07-04
+Last access: 2025-01-02
 
 License: CC BY 4.0
 
-Copyright: Deutscher Wetterdienst 2024
+Copyright: Deutscher Wetterdienst 2025
 }
 \keyword{datasets}

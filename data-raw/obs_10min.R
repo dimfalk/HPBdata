@@ -1,7 +1,7 @@
 ## code to prepare `obs_10min` dataset goes here
 
 library(timeseriesIO)
-#> 0.7.98
+#> 0.7.129
 
 obs_10min <- list()
 
@@ -48,6 +48,6 @@ obs_10min[["FF_10"]] <- obs_10min[["FF_10"]] |> timeseriesIO::xts_rm_duplicated(
 obs_10min[["DD_10"]] <- obs_10min[["DD_10"]] |> timeseriesIO::xts_rm_duplicated()
 
 # subset to period
-obs_10min <- timeseriesIO::xtslist_subset(obs_10min, "2020")
+# obs_10min <- timeseriesIO::xtslist_subset(obs_10min, "2020")
 
 usethis::use_data(obs_10min, overwrite = TRUE)

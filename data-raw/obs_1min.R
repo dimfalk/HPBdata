@@ -1,7 +1,7 @@
 ## code to prepare `obs_1min` dataset goes here
 
 library(timeseriesIO)
-#> 0.7.128
+#> 0.7.129
 
 station <- timeseriesIO::get_cdc_stations(res = "1_minute",
                                           par = "precipitation",
@@ -28,6 +28,6 @@ names(obs_1min[[1]]) <- "RWH_RS_01"
 obs_1min[["RWH_RS_01"]] <- obs_1min[["RWH_RS_01"]] |> timeseriesIO::idx_shift("left")
 
 # subset to period
-obs_1min <- timeseriesIO::xtslist_subset(obs_1min, "1994/2023")
+# obs_1min <- timeseriesIO::xtslist_subset(obs_1min, "1994/2023")
 
 usethis::use_data(obs_1min, overwrite = TRUE)

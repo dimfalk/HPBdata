@@ -5,7 +5,7 @@
 \alias{obs_1min}
 \title{Data: 1-minutely meteorological observations for 02290 'Hohenpeißenberg' site (Bavaria, Germany)}
 \format{
-A list of length 1 containing an xts object representing the following parameter:
+A list of length 1 containing an xts object (of length 15,517,000) representing the following parameter:
 \describe{
 \item{RWH_RS_01}{xts object. Precipitation depth \code{[mm]}.}
 }
@@ -25,10 +25,10 @@ Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/meta_data/}
 }
 \note{
-Last access: 2024-12-30
+Last access: 2025-01-02
 
 License: CC BY 4.0
 
-Copyright: Deutscher Wetterdienst 2024
+Copyright: Deutscher Wetterdienst 2025
 }
 \keyword{datasets}

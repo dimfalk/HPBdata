@@ -1,11 +1,12 @@
 ## code to prepare `obs_1d` dataset goes here
 
 library(timeseriesIO)
-#> 0.7.80
+#> 0.7.129
 
-station <- get_cdc_stations(res = "daily",
-                            par = "kl",
-                            q = "historical") |> dplyr::filter(stations_id == "02290")
+station <- timeseriesIO::get_cdc_stations(res = "daily",
+                                          par = "kl",
+                                          q = "historical") |>
+  dplyr::filter(stations_id == "02290")
 
 timeseriesIO::dwn_cdc_data(station, sub = "1781/2024")
 
