@@ -6,7 +6,7 @@
 <!-- badges: start -->
 
 [![R-CMD-check](https://github.com/dimfalk/HPBdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dimfalk/HPBdata/actions/workflows/R-CMD-check.yaml)
-[![Codecov](https://codecov.io/gh/dimfalk/HPBdata/graph/badge.svg)](https://app.codecov.io/gh/dimfalk/HPBdata)
+[![codecov](https://codecov.io/gh/dimfalk/HPBdata/graph/badge.svg?token=AQDHB9XQDO)](https://codecov.io/gh/dimfalk/HPBdata)
 <!-- badges: end -->
 
 HPBdata aims to provide access to historical meteorological measurements
