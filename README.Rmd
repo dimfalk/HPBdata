@@ -83,7 +83,7 @@ attributes(obs_10min[["TT_10"]])[5:22]
 
 Other than that, you can now just leverage all the sweet xts functionality:
 
-```{r}
+```{r, warning = FALSE}
 library(xts)
 
 # subsetting

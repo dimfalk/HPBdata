@@ -150,9 +150,6 @@ library(xts)
 # subsetting
 x <- obs_10min[["TT_10"]]["2022"]
 x
-#> Warning: object timezone ('UTC') is different from system timezone ('')
-#>   NOTE: set 'options(xts_check_TZ = FALSE)' to disable this warning
-#>     This note is displayed once per session
 #>                     TT_10
 #> 2022-01-01 00:00:00   9.2
 #> 2022-01-01 00:10:00   9.2
@@ -178,7 +175,6 @@ x
 
 # aggregating
 xts::apply.monthly(x, "mean", na.rm = TRUE) |> round(1)
-#> Warning: object timezone ('UTC') is different from system timezone ('')
 #>                     TT_10
 #> 2022-01-31 23:50:00   0.5
 #> 2022-02-28 23:50:00   1.8
