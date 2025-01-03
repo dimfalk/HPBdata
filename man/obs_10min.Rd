@@ -33,7 +33,7 @@ Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l. \cr \cr
 \url{https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/meta_data/}
 }
 \note{
-Last access: 2025-01-02
+Last access: 2025-01-03
 
 License: CC BY 4.0
 

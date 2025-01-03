@@ -60,7 +60,7 @@ test_that("Attributes are unchanged.", {
 
   expect_equal(attr(obs_1min[[1]], "TZONE"), "UTC")
 
-  expect_equal(attr(obs_1min[[1]], "PARAMETER"), NULL)
+  expect_equal(attr(obs_1min[[1]], "PARAMETER"), "Niederschlagshoehe")
 
   expect_equal(attr(obs_1min[[1]], "TS_START"), structure(773043600, class = c("POSIXct", "POSIXt"), tzone = "UTC"))
 
@@ -74,7 +74,7 @@ test_that("Attributes are unchanged.", {
 
   expect_equal(attr(obs_1min[[1]], "MEAS_RESOLUTION"), 1)
 
-  expect_equal(attr(obs_1min[[1]], "MEAS_UNIT"), NULL)
+  expect_equal(attr(obs_1min[[1]], "MEAS_UNIT"), "mm")
 
-  expect_equal(attr(obs_1min[[1]], "MEAS_STATEMENT"), NULL)
+  expect_equal(attr(obs_1min[[1]], "MEAS_STATEMENT"), "sum")
 })

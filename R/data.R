@@ -9,7 +9,7 @@
 #'   \item{RWH_RS_01}{xts object. Precipitation depth \code{[mm]}.}
 #' }
 #' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/historical/>
-#' @note Last access: 2025-01-02
+#' @note Last access: 2025-01-03
 #' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/1_minute/precipitation/DESCRIPTION_obsgermany-climate-1min-rr_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2025
@@ -34,7 +34,7 @@
 #'   \item{RWS_10}{xts object. Precipitation depth \code{[mm]}.}
 #' }
 #' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/historical/>
-#' @note Last access: 2025-01-02
+#' @note Last access: 2025-01-03
 #' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/10_minutes/air_temperature/DESCRIPTION_obsgermany_climate_10min_air_temperature_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2025
@@ -62,7 +62,7 @@
 #'   \item{TGK}{xts object. Minimum air temperature at 5 cm above ground \code{[°C]}.}
 #' }
 #' @source <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/historical/>
-#' @note Last access: 2025-01-02
+#' @note Last access: 2025-01-03
 #' @description <https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/daily/kl/DESCRIPTION_obsgermany-climate-daily-kl_en.pdf>
 #' @note License: CC BY 4.0
 #' @note Copyright: Deutscher Wetterdienst 2025

@@ -36,7 +36,7 @@ Historical observations of various parameters encompassing the period 1781-01-01
 Y = 47.8009° N; X = 11.0108° E; Z = 977 m a.s.l.
 }
 \note{
-Last access: 2025-01-02
+Last access: 2025-01-03
 
 License: CC BY 4.0
 
