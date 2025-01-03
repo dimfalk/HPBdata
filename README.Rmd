@@ -17,40 +17,82 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/dimfalk/HPBdata/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/dimfalk/HPBdata/actions/workflows/R-CMD-check.yaml)
+[![Codecov](https://codecov.io/gh/dimfalk/HPBdata/graph/badge.svg)](https://app.codecov.io/gh/dimfalk/HPBdata)
 <!-- badges: end -->
 
-The goal of HPBdata is to ...
+HPBdata aims to provide access to historical meteorological measurements at 
+various temporal resolutions (1 min, 10 min, 1 day) obtained at 'Hohenpeißenberg' 
+site (Bavaria, Germany). Data was acquired from the [Climate Data Center](https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate) 
+hosted by the German Weather Service and has been coverted to `{xts}` objects 
+for subsequent applications in need of representative meteorological measurements.
+
+Since I found myself in the need of a meteorological measurement sample dataset 
+for climatological evaluations, meteorological calculations, extreme value 
+statistics, etc quite often, I decided to assemble needed data in order to 
+simplify package development in the future.
 
 ## Installation
 
-You can install the development version of HPBdata from [GitHub](https://github.com/) with:
+You can install the development version of HPBdata with:
 
 ``` r
 # install.packages("devtools")
 devtools::install_github("dimfalk/HPBdata")
 ```
 
-## Example
+and load the package via
 
-This is a basic example which shows you how to solve a common problem:
+```{r}
+library(HPBdata)
+```
+
+## Getting started
+
+There is not really much to say about the use. HPBdata is a data-only package 
+without any functions provided consisting of three objects: 
+
+`obs_1min`, `obs_10min` and `obs_1d`.
+
+These are named lists of different length containing xts objects of different 
+length at specified interval width for various meteorological parameters.
+
+For details, it is strongly encouraged to study the dataset documentation 
+provided, e.g. `?obs_10min`, and the official dataset description linked there.
 
 ```{r example}
-library(HPBdata)
-## basic example code
+# inspect superordinate list
+class(obs_10min)
+
+length(obs_10min)
+
+names(obs_10min)
+
+# inspect xts objects contained
+class(obs_10min[["TT_10"]])
+
+length(obs_10min[["TT_10"]])
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+As a little remark worth noting, the xts objects contained are provided with 
+some additional metadata appended in form of attributes based on a data model 
+implemented in `{timeseriesIO}` to ensure I/O compatibility: 
 
-```{r cars}
-summary(cars)
+```{r}
+attributes(obs_10min[["TT_10"]])[5:22]
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
+Other than that, you can now just leverage all the sweet xts functionality:
 
-You can also embed plots, for example:
+```{r}
+library(xts)
 
-```{r pressure, echo = FALSE}
-plot(pressure)
+# subsetting
+x <- obs_10min[["TT_10"]]["2022"]
+x
+
+# aggregating
+xts::apply.monthly(x, "mean", na.rm = TRUE) |> round(1)
+
+# plotting
+plot(x, ylab = "air temperature at 2 m [°C]", col = "red", main = "02290 Hohenpeißenberg")
 ```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.

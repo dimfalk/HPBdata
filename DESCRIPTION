@@ -6,8 +6,8 @@ Authors@R:
     person("Dimitri", "Falk", , "falk.dimitri@eglv.de", role = c("aut", "cre"))
 Description: Historical quality-assured meteorological observation data at 
     various temporal resolutions, acquired from the Climate Data Center of the 
-    German Weather Service. Data has been coverted to xts objects for further
-    applications in need of real meteorological measurements.
+    German Weather Service. Data has been coverted to xts objects for subsequent
+    applications in need of representative meteorological measurements.
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
